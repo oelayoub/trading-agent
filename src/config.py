@@ -1,0 +1,17 @@
+
+PERIOD = "5y"
+INTERVAL = "1wk"
+RSI_LENGTH = 14
+CLOSE_SMA_LENGTH = 12
+EMA_LENGTH = 50
+VOLUME_SMA_LENGTH = 12
+ATR_LENGTH = 14
+TP_MULTIPLIER = 5
+SL_MULTIPLIER = 2.5
+TIME_EXIT_WEEKS = 12
+
+stocks = [
+    "CA.PA",    # Crédit Agricole
+    "GLE.PA",   # Société Générale
+]
+

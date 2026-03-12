@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 *.csv
 .env
-*.xlsx
+*.xlsx"
+.DS_Store
