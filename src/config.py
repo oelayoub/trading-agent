@@ -13,5 +13,13 @@ TIME_EXIT_WEEKS = 12
 stocks = [
     "CA.PA",    # Crédit Agricole
     "GLE.PA",   # Société Générale
+    "BNP.PA",   # BNP Paribas
+    "AIR.PA",   # Airbus
+    "MC.PA",    # LVMH
+    "OR.PA",    # L'Oréal
+    "SAN.PA",   # Sanofi
+    "DG.PA",    # Vinci
+    "SU.PA",    # Schneider Electric
+    "HO.PA"     # Thales
 ]
 
