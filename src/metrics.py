@@ -27,9 +27,9 @@ def calculate_metrics(data):
     else:
         average_week_loss = data.loc[data["result"] == "loss", "week_to_result"].mean()
 
-    total_gain_perc = (data.loc[data["result"] == "win", "profit_loss"].sum()).round(2)
+    total_gain_perc = data.loc[data["result"] == "win", "profit_loss"].sum()
 
-    total_loss_perc = (data.loc[data["result"] == "loss", "profit_loss"].sum()).round(2)
+    total_loss_perc = data.loc[data["result"] == "loss", "profit_loss"].sum()
 
     if total_loss_perc == 0:
         profit_factor = None
